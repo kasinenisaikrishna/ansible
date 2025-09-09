@@ -1,8 +1,8 @@
-- name: nginix install and run
+- name: nginx install and run
   hosts: web
   become: yes #to take sudo access
   tasks: #list of tasks
   - name: install nginx
     ansible.builtin.package: #heterogenous module that can work with any distributions
-      name: nginix
+      name: nginx
       state: present
