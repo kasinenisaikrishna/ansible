@@ -6,4 +6,3 @@
     ansible.builtin.package: #heterogenous module that can work with any distributions
       name: nginix
       state: present
-      status: enabled
