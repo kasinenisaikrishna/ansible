@@ -1,5 +1,6 @@
 - name: nginx install and run
-  hosts: web
+  hosts: localhost
+  connection: local
   become: yes #to take sudo access
   tasks: #list of tasks
   - name: install nginx
