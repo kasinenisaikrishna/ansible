@@ -3,4 +3,4 @@
   tasks:
   - name: print the info
     ansible.builtin.debug:
-     msg: "Hi, I am learning {{course}}, Duration is: {{Duration}}, Trainer: {{Trainer}}"
+     msg: "Hi, I am learning {{course}}, Duration is: {{duration}}, Trainer: {{trainer}}"
