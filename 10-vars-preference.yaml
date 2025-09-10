@@ -13,4 +13,8 @@
     ansible.builtin.debug:
       msg: "Hi, I am learning {{course}}"
 
+#1st preference is always command line/args
+
+
+
   
