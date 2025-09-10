@@ -1,9 +1,9 @@
 - name: variable prefrence 
   hosts: web
-  vars_prompt:
-  - name: course
-    prompt: please enter the course name
-    private: false #not confidential
+  # vars_prompt:
+  # - name: course
+  #   prompt: please enter the course name
+  #   private: false #not confidential
   # vars_files:
   # - vars.yaml
   vars:
@@ -18,6 +18,8 @@
 #1st preference is always command line/args
 #2nd preference is from task level
 #3rd preference is from files
+#4th preference is from prompt
+
 
 
 
