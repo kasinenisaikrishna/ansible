@@ -10,8 +10,8 @@
   #   course: "devops from play level"
   tasks:
   - name: print the info
-    vars: 
-      #course: "devops from task level"
+    # vars: 
+    #   #course: "devops from task level"
     ansible.builtin.debug:
       msg: "Hi, I am learning {{course}}"
 
