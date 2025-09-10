@@ -10,7 +10,7 @@
   - name: print the info
     vars:
       course: "devops from playtask level"
-      ansible.builtin.debug:
+    ansible.builtin.debug:
       msg: "Hi, I am learning {{course}}"
 
   
