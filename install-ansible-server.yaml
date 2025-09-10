@@ -12,3 +12,6 @@
       name: ansible
       status: started
       enabled: yes
+
+  #getting command not found error hence we need to install ansible manually
+  #sudo dnf install ansible -y
