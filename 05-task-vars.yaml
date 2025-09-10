@@ -7,15 +7,15 @@
   tasks: 
   - name: print the info
     ansible.builtin.debug:
-      msg: "Hi, I am learning {{course}}, Duration is: {{Duration}}, Trainer: {{trainer}}"
+      msg: "Hi, I am learning {{course}}, Duration is: {{duration}}, Trainer: {{trainer}}"
 
   - name: print the info again
     vars: #task level variables, same like local variables
       course: "Ansible"
     ansible.builtin.debug:
-      msg: "Hi, I am learning {{course}}, Duration is: {{Duration}}, Trainer: {{trainer}}"
+      msg: "Hi, I am learning {{course}}, Duration is: {{duration}}, Trainer: {{trainer}}"
 
   - name: print the info again and again
     ansible.builtin.debug:
-      msg: "Hi, I am learning {{course}}, Duration is: {{Duration}}, Trainer: {{trainer}}"
+      msg: "Hi, I am learning {{course}}, Duration is: {{duration}}, Trainer: {{trainer}}"
 
