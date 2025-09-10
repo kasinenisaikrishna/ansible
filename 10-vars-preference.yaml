@@ -17,9 +17,9 @@
   tasks:
   - name: print the info
     vars:
-    course: "devops from playtask level"
-    duration: "50hrs"
-    trainer: "sai"
+      course: "devops from playtask level"
+      duration: "50hrs"
+      trainer: "sai"
     ansible.builtin.debug:
       msg: "Hi, I am learning {{course}}, Duration is: {{duration}}, Trainer: {{trainer}}"
 
