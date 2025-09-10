@@ -8,12 +8,15 @@
     course: "devops from play level"
   tasks:
   - name: print the info
-    vars:
-      course: "devops from task level"
+    vars: 
+      #course: "devops from task level"
     ansible.builtin.debug:
       msg: "Hi, I am learning {{course}}"
 
 #1st preference is always command line/args
+#2nd preference is from task level
+
+
 
 
 
