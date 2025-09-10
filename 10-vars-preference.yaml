@@ -6,8 +6,8 @@
   #   private: false #not confidential
   # vars_files:
   # - vars.yaml
-  vars:
-    course: "devops from play level"
+  # vars:
+  #   course: "devops from play level"
   tasks:
   - name: print the info
     vars: 
@@ -20,6 +20,7 @@
 #3rd preference is from files
 #4th preference is from prompt
 #5th preference is from play level
+#6th preference is from inventory
 
 
 
