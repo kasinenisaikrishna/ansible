@@ -1,0 +1,14 @@
+- name: install ansible on the ansible server
+  hosts: local
+  become: yes
+  tasks: 
+  - name: install ansible
+    ansible.builtin.package:
+      name: ansible
+      state: present
+
+  - name: start ansible
+    ansible.builtin.service:
+      name: ansible
+      status: started
+      enabled: yes
