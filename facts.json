@@ -1,0 +1,184 @@
+{
+  "fips": true,
+  "virtualization": {
+    "type": "xen",
+    "role": "guest",
+    "guest_tech": ["xen"],
+    "host_tech": []
+  },
+  "distribution": {
+    "name": "RedHat",
+    "release": "Plow",
+    "version": "9.3",
+    "major_version": "9",
+    "file_path": "/etc/redhat-release",
+    "file_variety": "RedHat",
+    "file_parsed": true,
+    "file_search_string": "Red Hat"
+  },
+  "os": {
+    "family": "RedHat",
+    "system": "Linux",
+    "kernel": "5.14.0-362.18.1.el9_3.x86_64",
+    "kernel_version": "#1 SMP PREEMPT_DYNAMIC Wed Jan 3 15:54:45 EST 2024",
+    "machine": "x86_64"
+  },
+  "python": {
+    "version": "3.9.18",
+    "version_info": {
+      "major": 3,
+      "minor": 9,
+      "micro": 18,
+      "releaselevel": "final",
+      "serial": 0
+    },
+    "executable": "/usr/bin/python3",
+    "type": "cpython",
+    "has_sslcontext": true
+  },
+  "network": {
+    "fqdn": "ip-172-31-30-109.ec2.internal",
+    "hostname": "ip-172-31-30-109",
+    "nodename": "ip-172-31-30-109.ec2.internal",
+    "domain": "ec2.internal",
+    "interfaces": ["lo", "enX0"],
+    "default_ipv4": {
+      "gateway": "172.31.16.1",
+      "interface": "enX0",
+      "address": "172.31.30.109",
+      "broadcast": "172.31.31.255",
+      "netmask": "255.255.240.0",
+      "network": "172.31.16.0",
+      "prefix": "20",
+      "macaddress": "0a:ff:fd:18:3e:e5",
+      "mtu": 9001,
+      "type": "ether"
+    },
+    "default_ipv6": {},
+    "all_ipv4_addresses": ["172.31.30.109"],
+    "all_ipv6_addresses": ["fe80::8ff:fdff:fe18:3ee5"],
+    "dns": {
+      "search": ["ec2.internal"],
+      "nameservers": ["172.31.0.2"]
+    }
+  },
+  "architecture": {
+    "userspace_bits": "64",
+    "architecture": "x86_64",
+    "userspace_architecture": "x86_64"
+  },
+  "user": {
+    "id": "root",
+    "uid": 0,
+    "gid": 0,
+    "gecos": "root",
+    "home_dir": "/root",
+    "shell": "/bin/bash",
+    "real_user_id": 0,
+    "effective_user_id": 0,
+    "real_group_id": 0,
+    "effective_group_id": 0
+  },
+  "system_capabilities": {
+    "enforced": false,
+    "capabilities": []
+  },
+  "ssh_keys": {
+    "rsa": {
+      "type": "ssh-rsa",
+      "public": "AAAAB3NzaC1yc2EAAAADAQABAAABgQDHMW8Q84dFmnQt7wp63binOc0BLDxvamD1fzlR1Dz2uE243kcE8WDfqMIhBHBj2WPav3lO+LjJZymDb9yoEeJJYn/zR8DwZGgxS5UpaBdEJ2bUpRiaVZG+ztxGLGTncWgrQmfY4f/Qn/FV2Ojgzq3RTYyqtJHCVUNinmFEodMUhEIJF5zZMvRaJD/wjqC1C0GsT4K6aLFpcwrrc7Mw1Tzm3n9imvouUMcSbc1XpUVlWEZzKDfccHvpcJKhHXF9PcNc/jzo4SlE7SX/mEZwvxM17BSUscRqlVozPYrnykRfzk/Q0qPD1mFMTLVzw78QFBggTWGLNIRi8hRGSrGZhi0pRL3xy5/vgbSC90bV0srZ/V8auXWEfkwArtRJkmr5jL5SAQp7AAFTOky8igIEKjFAnDGOQDpDe19vFBJ/JGYSpnYt11fhmQEGpf1eizEy+7nSj6XbPIkZf420uLPFQNyGxNUjy75oKcUPpfER9Hduav6OwltxJv/HAti9e0wwlmU="
+    },
+    "ecdsa": {
+      "type": "ecdsa-sha2-nistp256",
+      "public": "AAAAE2VjZHNhLXNoYTItbmlzdHAyNTYAAAAIbmlzdHAyNTYAAABBBO5hXrNoigg9QWnsPz0i86xQVBycVr39Inn9lxr3MbCmJTND8m3hLPwtp9WwGvsirnrjhe8snyy8besvr8E7GKE="
+    }
+  },
+  "memory": {
+    "total_mb": 753,
+    "free_mb": 212,
+    "swap_total_mb": 2047,
+    "swap_free_mb": 2033,
+    "details": {
+      "real": {"total": 753, "used": 541, "free": 212},
+      "nocache": {"free": 603, "used": 150},
+      "swap": {"total": 2047, "free": 2033, "used": 14, "cached": 2}
+    }
+  },
+  "processor": {
+    "vendor": "GenuineIntel",
+    "model": "Intel(R) Xeon(R) CPU E5-2686 v4 @ 2.30GHz",
+    "count": 1,
+    "cores": 1,
+    "threads_per_core": 1,
+    "vcpus": 1
+  },
+  "storage": {
+    "total": "20 GB",
+    "devices": {
+      "xvda": {
+        "size": "20 GB",
+        "partitions": {
+          "xvda1": {"size": "1 MB"},
+          "xvda2": {"size": "122 MB", "label": "UEFI_DISK", "fstype": "vfat"},
+          "xvda3": {"size": "488 MB", "label": "boot_disk", "fstype": "xfs"},
+          "xvda4": {"size": "19.4 GB", "lvm": "RootVG"}
+        }
+      }
+    },
+    "lvm": {
+      "vg": "RootVG",
+      "size_g": "19.40",
+      "lvs": {
+        "rootVol": "6 GB",
+        "homeVol": "1 GB",
+        "varVol": "2 GB",
+        "varTmpVol": "2 GB",
+        "logVol": "2 GB",
+        "auditVol": "4.4 GB",
+        "swapVol": "2 GB"
+      }
+    },
+    "mounts": [
+      { "mount": "/", "device": "RootVG-rootVol", "fstype": "xfs", "size": "6 GB" },
+      { "mount": "/home", "device": "RootVG-homeVol", "fstype": "xfs", "size": "1 GB" },
+      { "mount": "/var", "device": "RootVG-varVol", "fstype": "xfs", "size": "2 GB" },
+      { "mount": "/var/log", "device": "RootVG-logVol", "fstype": "xfs", "size": "2 GB" },
+      { "mount": "/var/tmp", "device": "RootVG-varTmpVol", "fstype": "xfs", "size": "2 GB" },
+      { "mount": "/var/log/audit", "device": "RootVG-auditVol", "fstype": "xfs", "size": "4.4 GB" },
+      { "mount": "/boot", "device": "xvda3", "fstype": "xfs", "size": "488 MB" },
+      { "mount": "/boot/efi", "device": "xvda2", "fstype": "vfat", "size": "122 MB" }
+    ]
+  },
+  "security": {
+    "fips_mode": true,
+    "selinux": { "status": "disabled" },
+    "apparmor": { "status": "disabled" }
+  },
+  "virtual_hardware": {
+    "bios": {
+      "vendor": "Xen",
+      "version": "4.11.amazon",
+      "date": "08/24/2006"
+    },
+    "product": {
+      "name": "HVM domU",
+      "uuid": "ec22ad43-672c-d86f-8e62-69b49386d4b5",
+      "serial": "ec22ad43-672c-d86f-8e62-69b49386d4b5",
+      "version": "4.11.amazon"
+    },
+    "vendor": "Xen",
+    "chassis": { "vendor": "Xen", "form_factor": "Other" }
+  },
+  "uptime_seconds": 3969,
+  "datetime": {
+    "date": "2025-09-11",
+    "time": "00:26:04",
+    "iso8601": "2025-09-11T00:26:04Z",
+    "epoch": 1757550364,
+    "timezone": "UTC"
+  },
+  "package_manager": "dnf",
+  "service_manager": "systemd",
+  "load_average": { "1m": 0.12, "5m": 0.07, "15m": 0.01 },
+  "interpreter": "/usr/bin/python3"
+}
