@@ -4,3 +4,7 @@
   tasks:
   - name: execute the command
     ansible.builtin.shell: ls -ltr > /tmp/output.txt #log in to the server and execute command where as command module cannot able to do this
+  
+  - name: check the process
+    ansible.builtin.command: ps -ef | grep ssh
+    register: output
